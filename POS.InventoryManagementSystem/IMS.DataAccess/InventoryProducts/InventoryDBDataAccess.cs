@@ -42,7 +42,7 @@ namespace IMS.DataAccess
         //internal DataTable dt
         public InventoryDBDataAccess()
         {
-            this.Sqlcon = new SqlConnection(@"Data Source=PRONIC\Software Engineer;Initial Catalog=PRONICPOS;Integrated Security=True;");
+            this.Sqlcon = new SqlConnection(@"Data Source=PRONIC;Initial Catalog=PRONICPOS;Integrated Security=True;");
             Sqlcon.Open();
         }
 
